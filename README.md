@@ -1,5 +1,19 @@
 # AI Enterprise Workflow Capstone Project
-### This project uses time series to forecast revenue prediction for the next 30 days.
+
+
+| Filename |Description |
+| --- | --- |
+| app.py | Application server based on python Flask for model training and predictioning |
+| cslib.py | Collection of python functions for transforming the data into features for model training |
+| model.py | Functions for Loading model, training model and predictions |
+|unittest| Containing api, model and logging tests |
+| public | Web portal pages |
+| cs-train | Directory containing training data for Model|
+| models | pre-trained models |
+| notebooks | Solution visualization using jupyter notebooks |
+| Dockerfile| Definition file for building docker container|
+
+
 
 # Instructions
 
@@ -16,12 +30,15 @@ $ cd ai-enterprise-workflow-capstone
     
 * To test the model directly and train the model see the code at the bottom of `model.py`
     ```bash
-    python model.py
+    python ModelTets.py
     ```
+
 
 ## How to build the model docker container
 
 ```
+ git clone <repository>
+ cd ai-enterprise-workflow-capstone
  docker build -t ai-workflow .
 ```
 
@@ -40,6 +57,11 @@ $ cd ai-enterprise-workflow-capstone
 
 ## Testing the Model
 Before running the unit tests launch the `app.py`.
+
+* Run the application locally on a separate terminal
+  ```
+  python app.py
+  ```
 
 * To run only the api tests
     ```
