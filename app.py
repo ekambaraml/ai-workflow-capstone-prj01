@@ -10,11 +10,13 @@ import numpy as np
 import pandas as pd
 
 
+template_dir = os.path.abspath('public')
+
 ## import model specific functions and variables
 from model.model import model_train, model_load, model_predict
 from model.model import MODEL_VERSION, MODEL_VERSION_NOTE
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder=template_dir)
 
 @app.route("/")
 def landing():

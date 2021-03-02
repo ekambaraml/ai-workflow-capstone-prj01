@@ -6,7 +6,7 @@
 | app.py | Application server based on python Flask for model training and predictioning |
 | cslib.py | Collection of python functions for transforming the data into features for model training |
 | model.py | Functions for Loading model, training model and predictions |
-|unittest| Containing api, model and logging tests |
+| unittest| Containing api, model and logging tests |
 | public | Web portal pages |
 | cs-train | Directory containing training data for Model|
 | models | pre-trained models |
