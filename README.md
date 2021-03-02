@@ -17,7 +17,7 @@
 
 # Instructions
 
-$ cd ai-enterprise-workflow-capstone
+$ cd ai-workflow-capstone-prj01
 
 * To test `app.py`
     ```bash
@@ -37,8 +37,8 @@ $ cd ai-enterprise-workflow-capstone
 ## How to build the model docker container
 
 ```
- git clone <repository>
- cd ai-enterprise-workflow-capstone
+ git clone https://github.com/ekambaraml/ai-workflow-capstone-prj01
+ cd ai-workflow-capstone-prj01
  docker build -t ai-workflow .
 ```
 
