@@ -10,7 +10,8 @@
 | public | Web portal pages |
 | cs-train | Directory containing training data for Model|
 | models | pre-trained models |
-| notebooks | Solution visualization using jupyter notebooks |
+| notebooks/eda-analysis.ipynb | Solution visualization using jupyter notebooks |
+| notebooks/performance-monitoring.ipynb | Performance monitoring notebook |
 | Dockerfile| Definition file for building docker container|
 
 
@@ -75,6 +76,6 @@ Before running the unit tests launch the `app.py`.
 
 * To run all of the tests
     ```
-    python run-tests.py
+    python run-api-model-logging-tests.py
     ```
 
