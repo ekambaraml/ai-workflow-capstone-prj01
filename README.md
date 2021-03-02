@@ -1,6 +1,36 @@
 # AI Enterprise Workflow Capstone Project
 
 
+## Checklist
+- [x] Are there unit tests for the API?
+
+- [x] Are there unit tests for the model?
+
+- [x] Are there unit tests for the logging?
+
+- [x] Can all of the unit tests be run with a single script and do all of the unit tests pass? 
+
+- [x] Is there a mechanism to monitor performance? 
+
+- [x] Was there an attempt to isolate the read/write unit tests from production models and logs? 
+
+- [x] Does the API work as expected? For example, can you get predictions for a specific country as well as for all countries combined? 
+
+ - [x] Does the data ingestion exists as a function or script to facilitate automation? 
+
+- [x] Were multiple models compared? 
+
+- [x] Did the EDA investigation use visualizations? 
+
+- [x] Is everything containerized within a working Docker image? 
+
+- [x] Did they use a visualization to compare their model to the baseline model? 
+
+
+
+
+## Project Content
+
 | Filename |Description |
 | --- | --- |
 | app.py | Application server based on python Flask for model training and predictioning |
